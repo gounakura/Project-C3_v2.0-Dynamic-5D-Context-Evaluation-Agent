@@ -1,0 +1,14 @@
+# # 環境変数（APIキー）を絶対公開しない
+# .env
+
+# # ライブラリフォルダ（容量が大きい＋不要なため）
+# node_modules/
+
+# # OSやエディタの生成ファイル
+# .DS_Store
+# *.log
+
+# .gitignore の中に以下が入っていればOK
+.env
+.env.local
+node_modules/
